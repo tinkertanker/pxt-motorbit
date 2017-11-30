@@ -17,7 +17,7 @@ enum MyEnum {
  * Custom blocks
  */
 //% weight=10 color=#0fbc11 icon="\uf0ee"
-namespace ELECFREAKS_IoT {
+namespace environment {
     let dustvled = DigitalPin.P10
     let dustvo = AnalogPin.P1
 
