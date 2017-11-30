@@ -11,5 +11,5 @@ MIT
 for PXT/microbit (The metadata above is needed for package search.)
 
 ```package
-minode=github:minodekit/pxt-minode
+environment=github.com/lvsongsongsong/pxt-environment-iot
 ```
