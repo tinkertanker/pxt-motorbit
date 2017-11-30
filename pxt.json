@@ -1,6 +1,6 @@
 {
     "name": "environment",
-    "version": "0.1.10",
+    "version": "0.0.10",
     "description": "ELECFREAKS environment IoT driver",
     "license": "MIT",
     "dependencies": {
@@ -14,5 +14,5 @@
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:lvsongsongsong/pxt-environment-iot#v0.1.10"
+    "installedVersion": "github:lvsongsongsong/pxt-environment-iot#v0.0.10"
 }
