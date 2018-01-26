@@ -5,10 +5,13 @@
  */
 
 
+
+
+
 /**
  * Custom blocks
  */
-//% color="#666666" weight=10 icon="\uf1b9"
+//% color="#333333" weight=10 icon="\uf1b9"
 namespace motorbit {
 
     let M1_DIR = DigitalPin.P8
@@ -18,9 +21,10 @@ namespace motorbit {
 
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 0
+     * @param n the n from 0 (min) to 100 (max), eg:0
      */
-    //% block
+    //% blockId=motorbit_forward block="Move forward with speed %n"
+    //% n.min=0 n.max=100
     export function forward(n: number): void {
         // Add code here
         let speed = 0
@@ -36,9 +40,10 @@ namespace motorbit {
 
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 0
+     * @param n the n from 0 (min) to 100 (max), eg:0
      */
-    //% block
+    //% blockId=motorbit_back block="Move back with speed %n"
+    //% n.min=0 n.max=100
     export function back(n: number): void {
         // Add code here
         let speed = 0
@@ -55,9 +60,10 @@ namespace motorbit {
 
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 0
+     * @param n the n from 0 (min) to 100 (max), eg:50
      */
-    //% block
+    //% blockId=motorbit_turnleft block="turn left with speed %n"
+    //% n.min=0 n.max=100
     export function turnleft(n: number): void {
         // Add code here
         let speed = 0
@@ -73,9 +79,10 @@ namespace motorbit {
 
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 0
+     * @param n the n from 0 (min) to 100 (max), eg:50
      */
-    //% block
+    //% blockId=motorbit_turnright block="turn right with speed %n"
+    //% n.min=0 n.max=100
     export function turnright(n: number): void {
         // Add code here
         let speed = 0
@@ -91,10 +98,10 @@ namespace motorbit {
 
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 0
+     * 
      */
-    //% block
-    export function braking (): void {
+    //% blockId=motorbit_braking block="braking"
+    export function braking(): void {
         // Add code here
 
 
@@ -108,13 +115,16 @@ namespace motorbit {
 
     /**
     * TODO: describe your function here
-    * @param n describe parameter here, eg: 0
+    * @param m the m from 0 (min) to 100 (max), eg:50
+    * @param n the n from 0 (min) to 100 (max), eg:50
     */
-    //% block
+    //% blockId=motorbit_freestyle block="left wheel speed %m| right wheel speed %n"
+    //% m.min=0 m.max=100
+    //% n.min=0 n.max=100
     export function freestyle(m: number, n: number): void {
         // Add code here
 
-        if( m > 0){
+        if (m > 0) {
             M1_DIR = 1
         } else M1_DIR = 0
 
