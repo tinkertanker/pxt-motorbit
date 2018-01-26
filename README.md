@@ -1,8 +1,8 @@
-# pxt-environment-iot
+# motor:bit
 
 
-## environment-iot
-A iot kits package for pxt-microbit
+## motor:bit
+motor:bit package for pxt-microbit
 
 ## License
 MIT
@@ -11,5 +11,5 @@ MIT
 for PXT/microbit (The metadata above is needed for package search.)
 
 ```package
-environment=github.com/lvsongsongsong/pxt-environment-iot
+environment=github.com/lvsongsongsong/pxt-motorbit
 ```
