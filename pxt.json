@@ -1,18 +1,18 @@
 {
-    "name": "environment",
+    "name": "motorbit",
     "version": "0.0.10",
-    "description": "ELECFREAKS environment IoT driver",
+    "description": "ELECFREAKS motor:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "environment.ts"
+        "motorbit.ts"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:lvsongsongsong/pxt-environment-iot#v0.0.10"
+    "installedVersion": "github:lvsongsongsong/pxt-motorbit#v0.0.10"
 }
