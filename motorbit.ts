@@ -16,14 +16,14 @@
 namespace motorbit {
 
     /**
- * TODO: describe your function here
- * @param n the n from 0 (min) to 100 (max), eg:0
- */
+    * TODO: describe your function here
+    * @param n the n from 0 (min) to 100 (max), eg:0
+    */
     //% blockId=motorbit_forward block="Move forward with speed %n"
     //% n.min=0 n.max=100
     export function forward(n: number): void {
         // Add code here
-       
+
         pins.digitalWritePin(DigitalPin.P8, 0)
         pins.digitalWritePin(DigitalPin.P12, 0)
 
@@ -93,8 +93,8 @@ namespace motorbit {
      * TODO: describe your function here
      * 
      */
-    //% blockId=motorbit_braking block="braking"
-    export function braking(): void {
+    //% blockId=motorbit_brake block="brake"
+    export function brake(): void {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
@@ -135,10 +135,6 @@ namespace motorbit {
             pins.analogWritePin(AnalogPin.P2, - n * 1023 / 100)
         }
 
-
-
     }
-
-
 
 }
