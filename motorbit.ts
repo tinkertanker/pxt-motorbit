@@ -160,11 +160,7 @@ namespace motorbit {
             M2_PWM = -n * 1023 / 100
         }
 
-        pins.digitalWritePin(DigitalPin.P8, M1_DIR)
-        pins.digitalWritePin(DigitalPin.P12, M1_DIR)
-        pins.analogWritePin(AnalogPin.P1, M1_PWM)
-        pins.analogWritePin(AnalogPin.P2, M2_PWM)
-
+        stateupdate()
     }
 
 
