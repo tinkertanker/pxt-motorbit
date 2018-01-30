@@ -115,12 +115,12 @@ namespace motorbit {
 
     /**
     * TODO: describe your function here
-    * @param m the m from 0 (min) to 100 (max), eg:50
-    * @param n the n from 0 (min) to 100 (max), eg:50
+    * @param m the m from 0 (min) to 100 (max), eg:0
+    * @param n the n from 0 (min) to 100 (max), eg:0
     */
     //% blockId=motorbit_freestyle block="left wheel speed %m| right wheel speed %n"
-    //% m.min=0 m.max=100
-    //% n.min=0 n.max=100
+    //% m.min=-100 m.max=100
+    //% n.min=-100 n.max=100
     export function freestyle(m: number, n: number): void {
         // Add code here
 
