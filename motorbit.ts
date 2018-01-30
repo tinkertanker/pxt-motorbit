@@ -19,7 +19,7 @@ namespace motorbit {
     * TODO: describe your function here
     * @param n the n from 0 (min) to 100 (max), eg:0
     */
-    //% blockId=motorbit_forward block="Move forward with speed %n"
+    //% blockId=motorbit_forward block="move forward with speed %n"
     //% n.min=0 n.max=100
     export function forward(n: number): void {
         // Add code here
@@ -37,7 +37,7 @@ namespace motorbit {
      * TODO: describe your function here
      * @param n the n from 0 (min) to 100 (max), eg:0
      */
-    //% blockId=motorbit_back block="Move back with speed %n"
+    //% blockId=motorbit_back block="move back with speed %n"
     //% n.min=0 n.max=100
     export function back(n: number): void {
         // Add code here
