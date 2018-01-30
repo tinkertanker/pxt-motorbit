@@ -1,4 +1,5 @@
 
+
 /**
  * Use this file to define custom functions and blocks.
  * Read more at https://makecode.microbit.org/blocks/custom
@@ -20,6 +21,7 @@ namespace motorbit {
     let M2_PWM = 1023
 
     function stateupdate(): void {
+        
         pins.digitalWritePin(DigitalPin.P8, M1_DIR)
         pins.digitalWritePin(DigitalPin.P12, M1_DIR)
         pins.analogWritePin(AnalogPin.P1, M1_PWM)
@@ -160,7 +162,11 @@ namespace motorbit {
             M2_PWM = -n * 1023 / 100
         }
 
-        stateupdate()
+        pins.digitalWritePin(DigitalPin.P8, M1_DIR)
+        pins.digitalWritePin(DigitalPin.P12, M1_DIR)
+        pins.analogWritePin(AnalogPin.P1, M1_PWM)
+        pins.analogWritePin(AnalogPin.P2, M2_PWM)
+
     }
 
 
