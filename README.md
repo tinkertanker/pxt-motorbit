@@ -1,4 +1,6 @@
 # motor:bit package
+[ELECFREKAS Motor:bit](http://www.elecfreaks.com/estore/elecfreaks-motor-bit-for-micro-bit.html) is developed under the cooperation  of [ELECFREAKS](https://www.elecfreaks.com/) and [TINKERCADEMY](https://tinkercademy.com/).
+
 [ELECFREKAS Motor:bit](http://www.elecfreaks.com/estore/elecfreaks-motor-bit-for-micro-bit.html) is a kind of motor drive board based on micro:bit. It has integrated a motor drive chip TB6612, which can drive two DC motors with 1.2A max single channel current. Motor:bit has integrated Octopus series' sensor connectors. You can plug various sensors into it directly. Among these connectors, P0, P3-P7, P9-P10 support sensors with 3.3V power voltage only; P13-P16, P19-P20 support 3.3V or 5V sensors. You can change electric level by sliding the switch on the board.
 
 ## User Guide
