@@ -1,8 +1,25 @@
 # motor:bit
 
-
 ## motor:bit
 motor:bit package for pxt-microbit
+
+## 示例代码
+```JavaScript
+basic.forever(() => {
+    motorbit.forward(70)
+    basic.pause(2000)
+    motorbit.back(50)
+    basic.pause(2000)
+    motorbit.turnleft(50)
+    basic.pause(2000)
+    motorbit.turnright(50)
+    basic.pause(2000)
+    motorbit.brake()
+    basic.pause(2000)
+    motorbit.freestyle(-40, 30)
+    basic.pause(2000)
+})
+```
 
 ## License
 MIT
