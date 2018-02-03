@@ -3,7 +3,7 @@
 ## motor:bit
 motor:bit package for pxt-microbit
 
-## 示例代码
+## Code Example
 ```JavaScript
 basic.forever(() => {
     motorbit.forward(70)
