@@ -12,7 +12,7 @@
 /**
  * Custom blocks
  */
-//% color="#333333" weight=10 icon="\uf1b9"
+//% color=#0fbc11 weight=10 icon="\uf1b9"
 namespace motorbit {
 
     /**
