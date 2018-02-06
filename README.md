@@ -1,5 +1,5 @@
 # Motor:bit Package
-This ElecFreaks Motor:bit package was developed by [ElecFreaks](https://www.elecfreaks.com/) and [Tinkercademy](https://tinkercademy.com/).
+This ElecFreaks Motor:bit package was developed by [ElecFreaks](https://www.elecfreaks.com/) with minor assistance from [Tinkercademy](https://tinkercademy.com/).
 
 The [ElecFreaks Motor:bit](http://www.elecfreaks.com/estore/elecfreaks-motor-bit-for-micro-bit.html) is an integrated motor driver and breakout board for the BBC micro:bit. With an integrated motor driver chip TB6612, your micro:bit can drive two DC motors with 1.2A max single channel current. 
 
