@@ -1,13 +1,7 @@
-
-
 /**
  * Use this file to define custom functions and blocks.
  * Read more at https://makecode.microbit.org/blocks/custom
  */
-
-
-
-
 
 /**
  * Custom blocks
@@ -25,7 +19,7 @@ namespace motorbit {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
+        pins.digitalWritePin(DigitalPin.P12, 1)
 
         pins.analogWritePin(AnalogPin.P1, n * 1023 / 100)
         pins.analogWritePin(AnalogPin.P2, n * 1023 / 100)
@@ -42,13 +36,11 @@ namespace motorbit {
     export function back(n: number): void {
         // Add code here
 
-
         pins.digitalWritePin(DigitalPin.P8, 1)
-        pins.digitalWritePin(DigitalPin.P12, 1)
+        pins.digitalWritePin(DigitalPin.P12, 0)
 
         pins.analogWritePin(AnalogPin.P1, n * 1023 / 100)
         pins.analogWritePin(AnalogPin.P2, n * 1023 / 100)
-
 
     }
 
@@ -63,7 +55,7 @@ namespace motorbit {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
+        pins.digitalWritePin(DigitalPin.P12, 1)
 
         pins.analogWritePin(AnalogPin.P1, 0)
         pins.analogWritePin(AnalogPin.P2, n * 1023 / 100)
@@ -81,7 +73,7 @@ namespace motorbit {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
+        pins.digitalWritePin(DigitalPin.P12, 1)
 
         pins.analogWritePin(AnalogPin.P1, n * 1023 / 100)
         pins.analogWritePin(AnalogPin.P2, 0)
@@ -98,7 +90,7 @@ namespace motorbit {
         // Add code here
 
         pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
+        pins.digitalWritePin(DigitalPin.P12, 1)
 
         pins.analogWritePin(AnalogPin.P1, 0)
         pins.analogWritePin(AnalogPin.P2, 0)
@@ -128,13 +120,14 @@ namespace motorbit {
         }
 
         if (n > 0) {
-            pins.digitalWritePin(DigitalPin.P12, 0)
+            pins.digitalWritePin(DigitalPin.P12, 1)
             pins.analogWritePin(AnalogPin.P2, n * 1023 / 100)
         } else {
-            pins.digitalWritePin(DigitalPin.P12, 1)
+            pins.digitalWritePin(DigitalPin.P12, 0)
             pins.analogWritePin(AnalogPin.P2, - n * 1023 / 100)
         }
 
     }
 
 }
+ 
