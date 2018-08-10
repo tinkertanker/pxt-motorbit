@@ -7,10 +7,9 @@ The Motor:bit also features the Octopus series "GVS" connectors, allowing for ea
 
 If you're using your own breakout board or motor driver, connect your driver such that P8 and P12 control direction, and P1 and P2 control speed.
 
-![](https://github.com/tinkertanker/pxt-motorbit/blob/master/icon.png?raw=true)
+![](https://github.com/elecfreaks/pxt-motorbit/blob/master/icon.png?raw=true)
 
-## User Guide
-[ELECFREAKS Motor:bit User Guide](https://www.elecfreaks.com/11703.html)
+
 
 ## Code Example
 ```JavaScript
