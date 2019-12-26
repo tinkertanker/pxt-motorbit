@@ -1,10 +1,10 @@
 {
-  "motorbit.back|block": "以 %n的速度后退",
+  "motorbit.back|block": "以%n的速度后退",
   "motorbit.brake|block": "停车",
-  "motorbit.forward|block": "以 %n的速度前进",
+  "motorbit.forward|block": "以%n的速度前进",
   "motorbit.freestyle|block": "设置左轮速度为 %m| 设置右轮速度为 %n",
-  "motorbit.turnleft|block": "以 %n的速度左转",
-  "motorbit.turnright|block": "以 %n的速度右转",
+  "motorbit.turnleft|block": "以%n的速度左转",
+  "motorbit.turnright|block": "以%n的速度右转",
   "motorbit|block": "摩比特",
   "{id:category}Motorbit": "摩比特"
 }
