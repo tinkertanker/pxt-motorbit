@@ -1,0 +1,15 @@
+{
+  "motorbit": "Use this file to define custom functions and blocks.\r\nRead more at https://makecode.microbit.org/blocks/custom\r\n\r\nCustom blocks",
+  "motorbit.back": "TODO: describe your function here",
+  "motorbit.back|param|n": "the n from 0 (min) to 100 (max), eg:0",
+  "motorbit.brake": "TODO: describe your function here",
+  "motorbit.forward": "TODO: describe your function here",
+  "motorbit.forward|param|n": "the n from 0 (min) to 100 (max), eg:0",
+  "motorbit.freestyle": "TODO: describe your function here",
+  "motorbit.freestyle|param|m": "the m from -100 (min) to 100 (max), eg:0",
+  "motorbit.freestyle|param|n": "the n from -100 (min) to 100 (max), eg:0",
+  "motorbit.turnleft": "TODO: describe your function here",
+  "motorbit.turnleft|param|n": "the n from 0 (min) to 100 (max), eg:50",
+  "motorbit.turnright": "TODO: describe your function here",
+  "motorbit.turnright|param|n": "the n from 0 (min) to 100 (max), eg:50"
+}
