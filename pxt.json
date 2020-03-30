@@ -5,11 +5,12 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "Sonarbit": "github:elecfreaks/pxt-sonarbit"
+        "Sonarbit": "github:elecfreaks/pxt-sonarbit#v1.0.3"
     },
     "files": [
         "README.md",
-        "motorbit.ts"
+        "motorbit.ts",
+		"_locales/zh/motorbit-strings.json"
     ],
     "testFiles": [
         "tests.ts"

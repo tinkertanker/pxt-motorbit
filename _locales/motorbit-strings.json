@@ -1,0 +1,10 @@
+{
+  "motorbit.back|block": "move back with speed %n",
+  "motorbit.brake|block": "brake",
+  "motorbit.forward|block": "move forward with speed %n",
+  "motorbit.freestyle|block": "left wheel speed %m| right wheel speed %n",
+  "motorbit.turnleft|block": "turn left with speed %n",
+  "motorbit.turnright|block": "turn right with speed %n",
+  "motorbit|block": "motorbit",
+  "{id:category}Motorbit": "Motorbit"
+}
