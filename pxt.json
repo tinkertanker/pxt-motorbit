@@ -1,6 +1,6 @@
 {
     "name": "motorbit",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "ELECFREAKS motor:bit",
     "license": "MIT",
     "dependencies": {
