@@ -1,10 +1,3 @@
-/**
- * Use this file to define custom functions and blocks.
- * Read more at https://makecode.microbit.org/blocks/custom
- */
-/**
- * Custom blocks
- */
 //% color=#0fbc11 weight=10 icon="\uf1b9"
 namespace motorbit {
 
