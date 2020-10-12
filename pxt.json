@@ -5,16 +5,19 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "Sonarbit": "github:elecfreaks/pxt-sonarbit#v1.0.3"
+        "sonarbit": "github:elecfreaks/pxt-sonarbit"
     },
     "files": [
         "README.md",
         "motorbit.ts",
-		"_locales/zh/motorbit-strings.json"
+        "_locales/zh/motorbit-strings.json"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:elecfreaks/pxt-motorbit#v0.0.11"
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
