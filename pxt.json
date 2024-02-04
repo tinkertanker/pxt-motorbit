@@ -10,7 +10,8 @@
     "files": [
         "README.md",
         "motorbit.ts",
-        "_locales/zh/motorbit-strings.json"
+        "_locales/zh/motorbit-strings.json",
+        "_locales/fr/motorbit-strings.json"
     ],
     "testFiles": [
         "tests.ts"

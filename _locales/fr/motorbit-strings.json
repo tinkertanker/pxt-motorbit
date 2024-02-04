@@ -1,0 +1,10 @@
+{
+  "motorbit.back|block": "reculer à %n de puissance",
+  "motorbit.brake|block": "arrêter les moteurs",
+  "motorbit.forward|block": "avancer à %n de puissance",
+  "motorbit.freestyle|block": "moteur gauche %m| moteur droit %n",
+  "motorbit.turnleft|block": "tourner à gauche à %n de puissance",
+  "motorbit.turnright|block": "tourner à droite à %n de puissance",
+  "motorbit|block": "motorbit",
+  "{id:category}Motorbit": "Motorbit"
+}
