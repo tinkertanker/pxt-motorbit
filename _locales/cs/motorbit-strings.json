@@ -1,0 +1,10 @@
+{
+  "motorbit.back|block": "couvej rychlostí %n",
+  "motorbit.brake|block": "zastav",
+  "motorbit.forward|block": "jeď vpřed rychlostí %n",
+  "motorbit.freestyle|block": "nastav rychlost levého %m| a pravého %n kola",
+  "motorbit.turnleft|block": "zaboč vlevo rychlostí %n",
+  "motorbit.turnright|block": "zaboč vpravo rychlostí %n",
+  "motorbit|block": "Motorbit",
+  "{id:category}Motorbit": "Motorbit"
+}

@@ -1,6 +1,6 @@
 {
     "name": "motorbit",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "ELECFREAKS motor:bit",
     "license": "MIT",
     "dependencies": {
@@ -11,7 +11,9 @@
         "README.md",
         "motorbit.ts",
         "_locales/zh/motorbit-strings.json",
-        "_locales/fr/motorbit-strings.json"
+        "_locales/fr/motorbit-strings.json",
+        "_locales/cs/motorbit-strings.json",
+        "_locales/cs/motorbit-jsdoc-strings.json"
     ],
     "testFiles": [
         "tests.ts"

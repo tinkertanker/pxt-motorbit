@@ -1,0 +1,15 @@
+{
+  "motorbit": "Motorbit",
+  "motorbit.back": "Zapne oba motory ve směru dozadu.",
+  "motorbit.back|param|n": "Rychlost od 0 (minimum) do 100 (maximum).",
+  "motorbit.brake": "Vypne oba motory.",
+  "motorbit.forward": "Zapne oba motory ve směru dopředu.",
+  "motorbit.forward|param|n": "Rychlost od 0 (minimum) do 100 (maximum).",
+  "motorbit.freestyle": "Umožňuje nezávislé nastavení rychlosti levého a pravého motoru.",
+  "motorbit.freestyle|param|m": "Rychlost levého motoru od -100 (minimum) do 100 (maximum).",
+  "motorbit.freestyle|param|n": "Rychlost pravého motoru od -100 (minimum) do 100 (maximum).",
+  "motorbit.turnleft": "Zabočí vlevo vypnutím levého a zapnutím pravého motoru dopředu.",
+  "motorbit.turnleft|param|n": "Rychlost pravého motoru od 0 (minimum) do 100 (maximum).",
+  "motorbit.turnright": "Zabočí vpravo vypnutím pravého a zapnutím levého motoru dopředu.",
+  "motorbit.turnright|param|n": "Rychlost levého motoru od 0 (minimum) do 100 (maximum)."
+}
